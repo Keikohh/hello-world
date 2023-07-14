@@ -1,49 +1,71 @@
 # これまで学んだgitの機能とコマンド
-git init
+
+**git init**
 gitの初期化
-git status
+
+**git status**
 ワークツリーのステータスを表示
-git config 
+
+**git config** 
 設定周りの確認・変更
-git log
+
+**git log**
 ログを表示
 -- onelineでコミットメッセージの1行のみの一覧表示
-git diff
+
+**git diff**
 ファイルの差分を表示
-git add
+
+**git add**
 ステージングエリアに追加
-git commit 
+
+**git commit** 
 コミットの実行
-git commit --amend --no-edit
+
+**git commit --amend --no-edit**
 コミットの修正
-git checkout
+
+**git checkout**
 削除されたファイルを復旧や過去コミットの復元など
-git reset
+
+**git reset**
 コミットのリセット
-git revert
+
+**git revert**
 「コミットの変更を打ち消す」コミット
-git rm
+
+**git rm**
 ファイルとindex情報の削除
-git clone
+
+**git clone**
 レポジトリをコピー
-git pull
+
+**git pull**
 リモートレポジトリの同期	
-git push
+
+**git push**
 変更をアップロードする
-git request-pull
+
+**git request-pull**
 プルリクエスト：変更依頼
-git remote
+
+**git remote**
 リモートレポジトリの設定
-git branch
+
+**git branch**
 ブランチの作成
-git checkout
+
+**git checkout**
 ブランチの切り替え
-git merge
+
+**git merge**
 ブランチの統合
 --ff-only: fast forward only. 変更のない統合先ブランチにマージ（参考）
-git clone
+
+**git clone**
 レポジトリをコピー
-git push
+
+**git push**
 変更をアップロードする
 
 **githubフローについて**
